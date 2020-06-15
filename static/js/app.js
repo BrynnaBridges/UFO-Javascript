@@ -32,7 +32,7 @@ function runEnter() {
   // Prevent the page from refreshing
   d3.event.preventDefault();
   
-  // Select the input element and get the raw HTML node
+  // Place the input element from the HTML
   var inputElement = d3.select("#datetime");
 
   // Get the value property of the input element
@@ -41,13 +41,15 @@ function runEnter() {
   console.log(inputValue);
   console.log(aliens);
 
+  // Set up the what the search bar filters for
   var UFOReport = aliens.filter(person => person.datetime === inputValue);
 
   console.log(UFOReport);
-  
+
+  // Delete the aliens table
   document.getElementById("body").innerHTML="";
-// // Step 5: Use d3 to update each cell's text with
- //weather report values (weekday, date, high, low)
+
+// // Set up a new table that displays the filtered data
  UFOReport.forEach(function(UFOReport) {
   var row = tbody.append("tr");
   Object.entries(UFOReport).forEach(function([key, value]) {
