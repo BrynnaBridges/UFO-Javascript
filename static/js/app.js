@@ -1,9 +1,9 @@
 var tbody = d3.select("tbody");
 
 console.log(data);
-data.forEach((movie) => {
+data.forEach((alien) => {
   var row = tbody.append("tr");
-  Object.entries(movie).forEach(([key, value]) => {
+  Object.entries(alien).forEach(([key, value]) => {
     var cell = row.append("td");
     cell.text(value);
   });
