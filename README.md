@@ -1,2 +1,3 @@
-# javascript-challenge
- homework
+The employer wanted me to create a webiste utilizing a data-set that includes all of the eye-witness reports the employer could provide. These eye-witness reports are from people who spotted UFOs. The problem they bring is that their dataset is too large to for people to look through manually. People are unable to find the specific report they are looking for within the data. 
+
+I created this website using JavaScript, D3.js, HTML, and CSS. Anyone can now search through the data usng any coloum. They can search by date, city, state, country, shape, duration, or even comments. That way no matter how specifc or non-specific, the answer can be found. 
