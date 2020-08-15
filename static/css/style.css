@@ -16,10 +16,11 @@ body {
   min-height: 100%;
   padding-bottom: 130px;
   overflow: auto;
+  background-color: #4e5d6c;
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  background-color: #4e5d6c;
+  background-color:black;
 }
 
 .table-striped>tbody>tr:nth-child(even)>td, 
