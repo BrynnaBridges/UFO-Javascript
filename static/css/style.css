@@ -19,12 +19,12 @@ body {
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
-  background-color: red;
+  background-color: #4e5d6c;
 }
 
 .table-striped>tbody>tr:nth-child(even)>td, 
 .table-striped>tbody>tr:nth-child(even)>th {
-   background-color: navy; 
+   background-color: #1b3146; 
  }
 /* The footer is positioned at the bottom of the page */
 .footer {
