@@ -10,7 +10,7 @@ data.forEach((movie) => {
 });
 
 $(document).ready( function () {
-  $('#movie-table').DataTable();
+  $('#ufo-table').DataTable();
 } );
 
 
