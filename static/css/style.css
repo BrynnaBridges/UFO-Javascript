@@ -18,6 +18,14 @@ body {
   overflow: auto;
 }
 
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: red;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: navy; 
+ }
 /* The footer is positioned at the bottom of the page */
 .footer {
   position: absolute;
