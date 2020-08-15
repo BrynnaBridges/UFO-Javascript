@@ -166,7 +166,7 @@ select {
     height: 1px;
     margin-top: 20px;
     content: " ";
-    background: #1b3146;
+    background: aliceblue;
   }
 
   #table-area td {
