@@ -1,3 +1,15 @@
-The employer wanted me to create a webiste utilizing a data-set that includes all of the eye-witness reports the employer could provide. These eye-witness reports are from people who spotted UFOs. The problem they bring is that their dataset is too large to for people to look through manually. People are unable to find the specific report they are looking for within the data. 
-
-I created this website using JavaScript, D3.js, HTML, and CSS. Anyone can now search through the data usng any coloum. They can search by date, city, state, country, shape, duration, or even comments. That way no matter how specifc or non-specific, the answer can be found. 
+# UFO JavaScript
+​
+## Project Objective
+Utilizing a sample dataset of UFO sightings create a website where any user can search for a particular sighting using any of the dataset's parameters. 
+​
+### Technologies
+* Javascript
+* D3
+* HTML
+* CSS
+* DataTable
+​
+## Project Description
+​
+In order to create this site, I first built a landing page using HTML and CSS to design and build the index.html. I placed a free image from NASA of the Earth to make the webpage more visually appealing. Then I created the data table frame in HTML and brought it onto the page using Javascript and D3 coding. Within the code, I created a search bar that is capable of filtering through every column in the dataset for matching information. That means if a user searches with date, shape, duration, city, state, country, or comments information, the matching sightings will be presented to them.     
